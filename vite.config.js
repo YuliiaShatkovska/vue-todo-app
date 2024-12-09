@@ -6,7 +6,7 @@ import VitePluginVueDevTools from "vite-plugin-vue-devtools";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/",
+  base: "/vue-todo-app",
   plugins: [vue(), VitePluginVueDevTools()],
   resolve: {
     alias: {
